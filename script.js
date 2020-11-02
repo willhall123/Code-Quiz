@@ -87,8 +87,8 @@ function startQuiz(direction) {
         var optionsLi = document.createElement("li");
         optionsLi.style.padding = "5px";
         var optionBtn = document.createElement("button");
-        optionBtn.style.width = "300px";
-        optionBtn.style.height = "50px";
+        optionBtn.style.width = "200px";
+        optionBtn.style.height = "75px";
         optionsLi.appendChild(optionBtn);
         optionBtn.textContent = option;
         optionsDiv.appendChild(optionsUl);
